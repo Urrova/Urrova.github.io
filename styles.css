@@ -4,14 +4,53 @@ body{
 
 h1, h2, h3, h4, h5, h6{
 	color: #00FF00;
+	font-family: "OCR A Std";
 }
 
 p{
 	color: #FFFFFF;
+	font-family: "Courier";
+}
+
+hr{
+	border: 1px dashed white;
+}
+
+summary{
+	color: #00FF00;
+	background-image: linear-gradient(to right, #222222, #00FF00, #222222);
+	font-weight: bold;
+	cursor: pointer;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+summary h2{
+	color: #000000;
+	font-family: "OCR A Std";
+	
+}
+
+
+summary h2:hover{
+	color: #FFFFFF;
+	font-family: "OCR A Std";
+}
+
+.SVGicon{
+	color: white;
+}
+
+.SVGicon:hover{
+	color: #00FF00;
+}
+
+.PXicon:hover{
+	filter: invert();
 }
 
 .downloadButton{
-	background-color: #00FF00; /* Green */
+	background-color: #00CC00; /* Green */
 	border: ridge;
 	color: white;
 	padding: 15px 32px;
@@ -20,6 +59,8 @@ p{
 	display: inline-block;
 	font-size: 16px;
 	border-radius: 25px;
+	font-family: "OCR A Std";
+	font-weight: bold;
 }
 
 .displayInline{
