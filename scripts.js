@@ -11,8 +11,9 @@ var Marquee_Texts = new Array(
 	"Play ArcadeInvasion now, it haves 1 download per year :/",
 	"LMAO",
 	"I say semicolon jokes because im noob and i dont know that the compiler/interpreter says wheere is it. <b>Its here -> ;</b>",
-	"Ehhhhhh yeah. Ass"
+	"Ehhhhhh yeah. Ass",
+	"Anybody: Says a curly bracket joke............................................. Python programmers: XD"
 );
 
 var marquee = document.getElementById("Navbar_marquee");
-marquee.innerHTML = Marquee_Texts[getRandomInt(0,5)];
+marquee.innerHTML = Marquee_Texts[getRandomInt(0,6)];
