@@ -7,7 +7,7 @@ body{
 
 h1, h2, h3, h4, h5, h6{
 	color: #FFFF00;
-	font-family: "OCR A Std", monospace;
+	font-family: "OCR A Std", "OCR A Std Alt", monospace;
 }
 
 p{
@@ -40,10 +40,10 @@ summary{
 }
 summary h2{
 	color: #000000;
-	font-family: "OCR A Std", monospace;
+	font-family: "OCR A Std", "OCR A Std Alt", monospace;
 	
 }
 summary h2:hover{
 	color: #FFFFFF;
-	font-family: "OCR A Std", monospace;
+	font-family: "OCR A Std", "OCR A Std Alt", monospace;
 }

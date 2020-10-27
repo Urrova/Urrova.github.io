@@ -35,7 +35,7 @@
 	display: inline-block;
 	font-size: 16px;
 	border-radius: 25px;
-	font-family: "OCR A Std", monospace;
+	font-family: "OCR A Std", "OCR A Std Alt", monospace;
 	font-weight: bold;
 }
 
@@ -49,7 +49,7 @@
 	display: inline-block;
 	font-size: 16px;
 	border-radius: 25px;
-	font-family: "OCR A Std", monospace;
+	font-family: "OCR A Std", "OCR A Std Alt", monospace;
 	font-weight: bold;
 }
 
@@ -97,7 +97,7 @@
 
 .Navbar h1{
 	color: #FFFFFF;
-	font-family: "OCR A Std", monospace;
+	font-family: "OCR A Std", "OCR A Std Alt", monospace;
 	font-weight: bolder;
 	font-size: 40;
 	
@@ -176,7 +176,7 @@
 	display: inline-block;
 	font-size: 16px;
 	border-radius: 25px;
-	font-family: "OCR A Std", monospace;
+	font-family: "OCR A Std", "OCR A Std Alt", monospace;
 	font-weight: bold;
 }
 
@@ -190,7 +190,7 @@
 	display: inline-block;
 	font-size: 16px;
 	border-radius: 25px;
-	font-family: "OCR A Std", monospace;
+	font-family: "OCR A Std", "OCR A Std Alt", monospace;
 	font-weight: bold;
 }
 
@@ -238,7 +238,7 @@
 
 .Navbar h1{
 	color: #FFFFFF;
-	font-family: "OCR A Std", monospace;
+	font-family: "OCR A Std", "OCR A Std Alt", monospace;
 	font-weight: bolder;
 	font-size: 40;
 	

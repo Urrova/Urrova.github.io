@@ -1,9 +1,9 @@
 @font-face{
-	Font-Family: "OCR A Std";
+	Font-Family: "OCR A Std Alt";
 	src:local("OCR A Std"),
-		url("../fonts/OCR-A.ttf");
+		url("../fonts/OCR A Std.ttf");
 }
-
+	
 @font-face{
 	Font-Family: "DOS";
 	src: url("../fonts/DOS.ttf");
