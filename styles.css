@@ -1,3 +1,4 @@
+/*---------------ETIQUETAS------------------*/
 body{
 	background-image: linear-gradient(#111111,#440000);
 	margin: 0px;
@@ -7,31 +8,27 @@ body{
 
 h1, h2, h3, h4, h5, h6{
 	color: #FFFF00;
-	font-family: "OCR A Std", "Lucida Console","Courier",monospace;
+	font-family: "OCR A Std", monospace;
 }
 
 p{
 	color: #FFFFFF;
-	font-family: "Courier";
+	font-family: "DOS";
 }
 
 a{
 	color: #6045ff;
 	font-weight: bold;
+	font-family: "DOS";
 }
 
 hr{
 	border: 1px dashed white;
 }
 
-.imagen{
-	width: 90%;
+li{
+	font-family: "DOS";
 }
-
-.urrova{
-	
-}
-
 
 /* Acordeon con details */
 summary{
@@ -44,12 +41,22 @@ summary{
 }
 summary h2{
 	color: #000000;
-	font-family: "OCR A Std", "Lucida Console","Courier",monospace;
+	font-family: "OCR A Std", monospace;
 	
 }
 summary h2:hover{
 	color: #FFFFFF;
-	font-family: "OCR A Std", "Lucida Console","Courier",monospace;
+	font-family: "OCR A Std", monospace;
+}
+
+
+/*-------------CLASES------------*/
+.imagen{
+	width: 90%;
+}
+
+.urrova{
+	
 }
 
 .SVGicon{
@@ -57,7 +64,13 @@ summary h2:hover{
 }
 
 .SVGicon:hover{
-	color: #00FF00;
+	background-image: linear-gradient(
+	#000000,
+	#FF0000,
+	#FF9900
+	);
+    color:transparent;
+    -webkit-background-clip: text;
 }
 
 .PXicon:hover{
@@ -74,7 +87,7 @@ summary h2:hover{
 	display: inline-block;
 	font-size: 16px;
 	border-radius: 25px;
-	font-family: "OCR A Std", "Lucida Console","Courier",monospace;
+	font-family: "OCR A Std", monospace;
 	font-weight: bold;
 }
 
@@ -88,7 +101,7 @@ summary h2:hover{
 	display: inline-block;
 	font-size: 16px;
 	border-radius: 25px;
-	font-family: "OCR A Std", "Lucida Console","Courier",monospace;
+	font-family: "OCR A Std", monospace;
 	font-weight: bold;
 }
 
@@ -103,6 +116,18 @@ summary h2:hover{
 .greenBG{
 	background-image: linear-gradient(to right, rgba(0,0,0,0), #0066FF, rgba(0,0,0,0));
 	color: #FFFFFF;
+}
+
+.boxBG{
+	background-color: #000000;
+	border: 2px solid #00FF00;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.boxBG li{
+	color: #FFFFFF;
+	font-family: "DOS";
 }
 
 /*idioma*/
@@ -124,43 +149,43 @@ summary h2:hover{
 
 .Navbar h1{
 	color: #FFFFFF;
-	font-family: "OCR A Std", "Lucida Console","Courier",monospace;
+	font-family: "OCR A Std", monospace;
 	font-weight: bolder;
 	font-size: 40;
 	
 	/*Para el texto con imagen*/
-	background-image: linear-gradient(#440000,#FF0000,#FF9900,#FFFF00);
+	background-image: linear-gradient(
+	#440000,
+	#FF0000,
+	#FF9900,
+	#FFFF00);
     color:transparent;
     -webkit-background-clip:text;
 }
 
 .Navbar ul li{
 	display: inline;
-	background-color: #FFFFFF;
-	margin: 10px;
+	background-color: #111111;
+	margin: 0px;
 	padding: 10px;
-	border-radius: 50px;
-	border-style: outset;
 }
 
 .Navbar ul li:hover{
 	display: inline;
-	background-color: #FFFFFF;
-	margin: 10px;
+	background-color: #111111;
+	margin: 0px;
 	padding: 10px;
-	border-radius: 50px;
-	border-style: outset;
 }
 
 .Navbar ul li a{
-	color: #000000;
-	font-family: "Lucida Console";
+	color: #FFFFFF;
+	font-family: "DOS";
 	text-decoration: none;
 }
 
 .Navbar ul li a:hover{
-	color: #000000;
-	font-family: "Lucida Console";
+	color: #FF0000;
+	font-family: "DOS";
 	text-decoration: underline;
 }
 
@@ -168,7 +193,24 @@ summary h2:hover{
 	border: 1px solid #222222;
 }
 
+/*---------------------IDs----------------------*/
 #Navbar_Marquee{
-	font-family: "OCR A", "Lucida Console", "Courier", monospace;
+	font-family: "OCR A Std", monospace;
 	color: #00FF00;
+}
+
+
+
+
+/*------------------Fuentes---------------------------*/
+
+@font-face{
+	Font-Family: "OCR A Std";
+	src: local("OCR A Std"),
+		url("fonts/OCR-A.ttf");
+}
+
+@font-face{
+	Font-Family: "DOS";
+	src: url("fonts/DOS.ttf");
 }
