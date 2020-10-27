@@ -1,0 +1,10 @@
+@font-face{
+	Font-Family: "OCR A Std";
+	src:local("OCR A Std"),
+		url("../fonts/OCR-A.ttf");
+}
+
+@font-face{
+	Font-Family: "DOS";
+	src: url("../fonts/DOS.ttf");
+}
