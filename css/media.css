@@ -1,0 +1,5 @@
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .Navbar_Buttons_Desktop:not(:first-child) {display: none;}
+  .Navbar_Buttons_Mobile{display: block;}
+}
