@@ -1,5 +1,3 @@
-	
-
 //Funcion copiada y pegada de intArnet
 function getRandomInt(min, max) {
 	min = Math.ceil(min);
@@ -32,6 +30,8 @@ for (var i = 0; i < metas.length; i++){
 	}
 }
 
+
+document.body.onload = function(){
 //Un miniscript que cambia el texto en el marquee
 var Marquee_Texts = new Array(
 	"XDDDDDDDDDDDDDDDDDDDDDDDDDD",
@@ -44,3 +44,4 @@ var Marquee_Texts = new Array(
 
 var marquee = document.getElementById("Navbar_marquee");
 marquee.innerHTML = Marquee_Texts[getRandomInt(0,6)];
+}
