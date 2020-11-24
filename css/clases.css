@@ -1,4 +1,3 @@
-
 .imagen{
 	width: 90%;
 }
@@ -33,10 +32,9 @@
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 18px;
 	border-radius: 25px;
-	font-family: "OCR A Std", "OCR A Std Alt", monospace;
-	font-weight: bold;
+	font-family: "DOS", monospace;
 }
 
 .downloadButton:hover{
@@ -47,151 +45,9 @@
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 18px;
 	border-radius: 25px;
-	font-family: "OCR A Std", "OCR A Std Alt", monospace;
-	font-weight: bold;
-}
-
-.displayInline{
-	display: inline;
-}
-
-.medialist span{
-	color: #FFFFFF;
-}
-
-.greenBG{
-	background-image: linear-gradient(to right, rgba(0,0,0,0), #0066FF, rgba(0,0,0,0));
-	color: #FFFFFF;
-}
-
-.boxBG{
-	background-color: #000000;
-	border: 2px solid #00FF00;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.boxBG li{
-	color: #FFFFFF;
-	font-family: "DOS";
-}
-
-/*idioma*/
-.idioma{
-	Margin-top: 5px;
-	margin-bottom: 5px;
-	margin-left: 5px;
-}
-
-.idioma a{
-	color: #FFFFFF;
-}
-
-/*Barra de navegacion*/
-.Navbar{
-	background-color: #111111;
-	border-bottom: 5px solid #00FF00;
-}
-
-.Navbar h1{
-	color: #FFFFFF;
-	font-family: "OCR A Std", "OCR A Std Alt", monospace;
-	font-weight: bolder;
-	font-size: 40;
-	
-	/*Para el texto con imagen*/
-	background-image: linear-gradient(
-	#440000,
-	#FF0000,
-	#FF9900,
-	#FFFF00);
-    color:transparent;
-    -webkit-background-clip:text;
-}
-
-.Navbar ul li{
-	display: inline;
-	background-color: #111111;
-	margin: 0px;
-	padding: 10px;
-}
-
-.Navbar ul li:hover{
-	display: inline;
-	background-color: #111111;
-	margin: 0px;
-	padding: 10px;
-}
-
-.Navbar ul li a{
-	color: #FFFFFF;
-	font-family: "DOS";
-	text-decoration: none;
-}
-
-.Navbar ul li a:hover{
-	color: #FF0000;
-	font-family: "DOS";
-	text-decoration: underline;
-}
-
-.Navbar hr{
-	border: 1px solid #222222;
-}
-.imagen{
-	width: 90%;
-}
-
-.urrova{
-	
-}
-
-.SVGicon{
-	color: white;
-}
-
-.SVGicon:hover{
-	background-image: linear-gradient(
-	#000000,
-	#FF0000,
-	#FF9900
-	);
-    color:transparent;
-    -webkit-background-clip: text;
-}
-
-.PXicon:hover{
-	filter: invert();
-}
-
-.downloadButton{
-	background-color: #0066FF;
-	border: ridge;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	border-radius: 25px;
-	font-family: "OCR A Std", "OCR A Std Alt", monospace;
-	font-weight: bold;
-}
-
-.downloadButton:hover{
-	background-color: #000099;
-	border: ridge;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	border-radius: 25px;
-	font-family: "OCR A Std", "OCR A Std Alt", monospace;
-	font-weight: bold;
+	font-family: "DOS", monospace;
 }
 
 .displayInline{
