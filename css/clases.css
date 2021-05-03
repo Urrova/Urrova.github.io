@@ -152,3 +152,24 @@
 	font-family: "DOS";
 	text-decoration: none;
 }
+
+/*Footer*/
+.Footer{
+	background-image: linear-gradient(
+		#050505,
+		#050505,
+		#050505,
+		#050505,
+		#050505,
+		#050505,
+		#050505,
+		#050505,
+		#05FF05);
+	border-top: 5px solid #00FF00;
+	margin-top:50px;
+	padding-bottom:20px;
+}
+
+.Footer hr{
+	border: 1px solid #111111;
+}
