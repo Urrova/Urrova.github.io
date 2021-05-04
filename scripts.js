@@ -5,13 +5,6 @@ function getRandomInt(min, max) {
 	return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
 }
 
-//Funcion para insertar el contador de visitas en el footer
-function insertVisitCounter(){
-	counter = document.getElementById("Counter_loader");
-	counter.innerHTML = "<img src=\"//counter.websiteout.net/compte.php?S='+encodeURI(window.location.hostname)+'&C=2&D=5&N=0&M=0\" alt=\"\" border=\"0\"/>";
-}
-
-
 //Identifica el idioma de la pagina.
 var metas = document.getElementsByTagName("meta");
 var idioma;
@@ -29,14 +22,14 @@ for (var i = 0; i < metas.length; i++){
 switch (idioma){
 	case "ingles":
 		$(function() {
-			$("#Navbar_loader").load("navbar.html");
-			$("#Footer_loader").load("footer.html");
+			$("#Navbar_loader").load("html_modules/navbar.html");
+			$("#Footer_loader").load("html_modules/footer.html");
 		});
 		break;
 	case "español":
 		$(function() {
-			$("#Navbar_loader").load("navbar_es.html");
-			$("#Footer_loader").load("footer_es.html");
+			$("#Navbar_loader").load("html_modules/navbar_es.html");
+			$("#Footer_loader").load("html_modules/footer_es.html");
 		});
 		break;
 }
