@@ -1,6 +1,6 @@
 var OCs = new Array(
-    "<img src=\"images/URROVA 256.gif\" class=\"urrova1\">",
-    "<img src=\"images/URROVA tomando mate.png\" class=\"urrova2\">"
+    "<img src=\"images/URROVA/URROVA 256.gif\" class=\"urrova1\">",
+    "<img src=\"images/URROVA/URROVA tomando mate.png\" class=\"urrova2\">"
 )
 
 
