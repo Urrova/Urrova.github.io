@@ -1,8 +1,23 @@
 <center class = "Footer">
-    <p class="SmallP">Visit counter (for this page)</p>
-    <div id="Counter_loader"></div>
+    <table>
+    <tr><td>
+        <center>
+            <p class="SmallP">Visit counter (for this page)</p>
+            <div id="Counter_loader1"></div>
+        </center>
+    </td>
+    <td>
+        <center>
+            <p class="SmallP">Visit counter (for all pages)</p>
+            <div id="Counter_loader2"></div>
+        </center>
+    </td></tr>
+    </table>
     <script>
-        counter = document.getElementById("Counter_loader");
-        counter.innerHTML = '<img src="//counter.websiteout.net/compte.php?S='+encodeURI(window.location.href)+'&C=2&D=8&N=0&M=0" alt="" border="0" />';
+        var counter1 = document.getElementById("Counter_loader1");
+        counter1.innerHTML = '<img src="//counter.websiteout.net/compte.php?S='+encodeURI(window.location.href)+'&C=2&D=8&N=0&M=0" alt="" border="0" />';
+
+        var counter2 = document.getElementById("Counter_loader2");
+        counter2.innerHTML = '<img src="//counter.websiteout.net/compte.php?S='+encodeURI(window.location.hostname)+'&C=2&D=8&N=0&M=0" alt="" border="0" />';
     </script>
 </center>
