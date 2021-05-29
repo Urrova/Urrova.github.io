@@ -18,6 +18,7 @@
 	);
     color:transparent;
     -webkit-background-clip: text;
+	background-clip: text;
 }
 
 .PXicon:hover{
@@ -75,7 +76,12 @@
 	font-family: "DOS";
 }
 
-/*idioma*/
+.BG2{
+	background-image: none;
+	background-color: #000033;
+}
+
+/* ===== idioma ===== */
 .idioma{
 	Margin-top: 5px;
 	margin-bottom: 5px;
@@ -93,7 +99,7 @@
 	margin:5px;
 }
 
-/*Barra de navegacion*/
+/* ===== Barra de navegacion ===== */
 .Navbar{
 	background-color: #111111;
 	border-bottom: 5px solid #00FF00;
@@ -113,6 +119,7 @@
 	#FFFF00);
     color:transparent;
     -webkit-background-clip:text;
+	background-clip: text;
 }
 
 .Navbar ul li{
@@ -160,7 +167,7 @@
 	text-decoration: none;
 }
 
-/*Footer*/
+/* ===== Footer ===== */
 .Footer{
 	background-color: #050505;
 	border-top: 5px solid #00FF00;
