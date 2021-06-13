@@ -34,7 +34,7 @@ switch (idioma){
 		break;
 }
 
-document.body.onload = function(){
+function marqueeSetter(){
 	//Un miniscript que cambia el texto en el marquee
 	var Marquee_Texts;
 	switch (idioma){
@@ -84,3 +84,5 @@ document.body.onload = function(){
 	var marquee = document.getElementById("Navbar_marquee");
 	marquee.innerHTML = Marquee_Texts[getRandomInt(0,Marquee_Texts.length)];
 }
+
+window.addEventListener("load",marqueeSetter);
