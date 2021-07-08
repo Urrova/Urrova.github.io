@@ -83,9 +83,10 @@
 
 /* ===== idioma ===== */
 .idioma{
-	Margin-top: 5px;
-	margin-bottom: 5px;
-	margin-left: 5px;
+	margin-top: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
 }
 
 .idioma a{
@@ -96,13 +97,14 @@
 	color: #FFFFFF;
 	font-family: "DOS";
 	font-size:small;
-	margin:5px;
+	margin: 5px;
 }
 
 /* ===== Barra de navegacion ===== */
 .Navbar{
 	background-color: #111111;
 	border-bottom: 5px solid #00FF00;
+	margin: 0px;
 }
 
 .Navbar h1{
